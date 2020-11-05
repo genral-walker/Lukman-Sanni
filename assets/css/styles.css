@@ -1,0 +1,45 @@
+
+#sidebar {
+    
+    background: url(../css/images/intro.svg)  #080938  fixed !important;
+}
+
+#intro { background: url(../css/images/intro.svg)  #080938  fixed !important;
+}
+
+.image-1 {
+    pointer-events: none !important;
+    opacity: .5 !important;
+}
+.image-1::before {
+    background: #181a20b6 !important;
+}
+.about {
+
+    background:  url(../css/images/intro.svg)  #181A20  fixed !important;
+}
+
+.image-2 {
+    pointer-events: none !important;
+    opacity: .5 !important;
+}
+.image-2::before {
+    background: #962955cb !important;
+}
+.skills{
+    background: url(../css/images/intro.svg)  #962955  fixed !important;
+}
+
+.projects {
+    background: url(../css/images/intro.svg)  #181A20  fixed !important;
+   
+}
+
+.get-in-touch {
+    background: url(../css/images/intro.svg)  #393a8e79  fixed !important; 
+
+}
+
+#footer {
+ background: url(../css/images/intro.svg)  #1D1B51  fixed !important; 
+}
