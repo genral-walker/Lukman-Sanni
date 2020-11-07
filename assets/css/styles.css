@@ -11,10 +11,10 @@
   opacity: 0.5 !important;
 }
 .image-1::before {
-  background: #181a20b6 !important;
+  background: #050918 !important;
 }
 .about {
-  background: url(../css/images/intro.svg) #181a20 fixed !important;
+  background: url(../css/images/intro.svg) #050918ee fixed !important;
 }
 
 .image-2 {
@@ -27,9 +27,9 @@
 .skills {
   background: url(../css/images/intro.svg) #962955 fixed !important;
 }
-
+ 
 .projects {
-  background: url(../css/images/intro.svg) #181a20 fixed !important;
+  background: url(../css/images/intro.svg) #1d1b51 fixed !important;
 }
 
 .features section {
@@ -42,11 +42,11 @@
   height: 38%;
   margin-bottom: 2rem;
 }
+
 .video video {
-  display: block;
-  border-radius: 15px;
   width: 100%;
   height: 100%;
+  transform: scale(1.12, 1.2);
 }
 
 .stacks {
@@ -75,6 +75,16 @@
        height: 50rem !important;
       }
   }
+  @media only screen and (max-width: 1526px) {
+    .stacks-2 {
+        height: 12%;
+    }
+  }
+  @media only screen and (max-width: 1520px) {
+    .stacks-2 {
+        height: 16%;
+    }
+  }
   @media only screen and (max-width: 1278px) {
     .stacks-4{
        height: 10% !important;
@@ -96,22 +106,34 @@
         padding-right: 3rem;
        height: 40rem;
       }
+      .video video {
+        transform: scale(1.12, 1.1);
+      }
+  }
+  @media only screen and (max-width: 800px) {
+    .video video {
+      transform: scale(1.12, 1.2); 
+    }
+    
   }
   @media only screen and (max-width: 650px) {
     .video {
         height: 45%;
     }
   }
-
-  @media only screen and (max-width: 1520px) {
-    .stacks-2 {
-        height: 16%;
+  
+  @media only screen and (max-width: 600px) {
+    .video video {
+      transform: scale(1.12, 1.4); 
     }
+    
   }
-  @media only screen and (max-width: 1526px) {
-    .stacks-2 {
-        height: 12%;
+
+  @media only screen and (max-width: 500px) {
+    .video video {
+       transform: scale(1.2, 1.6); 
     }
+    
   }
 @media only screen and (max-width: 480px) {
     .features section {
