@@ -253,7 +253,7 @@
     <footer id="footer" class="wrapper style1-alt">
       <div class="inner">
         <ul class="menu copyright">
-          <li>&copy; Lukman Sanni 2020</li>
+          <li>&copy; Lukman Sanni <span id="year"></span></li>
         </ul>
       </div>
     </footer>
@@ -266,5 +266,9 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      const year = new Date().getFullYear();
+      window.year.innerHTML = year;
+    </script>
   </body>
 </html>
