@@ -128,6 +128,14 @@
     }
     
   }
+
+  @media only screen and (max-width: 783px) {
+   .sneakers4u ul {
+     margin-bottom: 0 !important;
+     transform: translateY(1.5rem);
+   }
+  }
+
   @media only screen and (max-width: 650px) {
     .video {
         height: 45%;
@@ -140,6 +148,12 @@
     }
     
   }
+
+  @media only screen and (max-width: 520px) {
+    .sneakers4u ul {
+      transform: translateY(1rem);
+    }
+   }
 
   @media only screen and (max-width: 500px) {
     .video video {
